@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+
+.ascii-container {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.ascii-art {
+    font-family: monospace;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#typewriter-text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.progress-bar {
+    background-color:  green;
+    height: 20px;
+    width: 0;
+    transition: width 0.1s;
+  }
+
+
+  #terminal .terminal-output .terminal-greetings {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 2em;    /* Ajusta el tamaño de fuente según tus preferencias */
+    padding: 20px;     /* Añade relleno para mejorar la legibilidad */
+    max-width: 100%;   /* Establece un ancho máximo del 100% */
+    margin: 0 auto;    /* Centra el contenido en el contenedor */
+    align-items: center;
+  }
